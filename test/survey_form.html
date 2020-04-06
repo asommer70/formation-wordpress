@@ -1,0 +1,258 @@
+<h1>Arrival Survey</h1>
+
+<form method="post" action="#">
+  <div class="row">
+    <div class="col-sm-12 col-md-5">
+      <p>
+      List the NAME of OUR HOME and the DATES of your stay. (This way we can address any issues mentioned)
+      </p>
+      <div class="form-group">
+        <label for="house_name">House Name</label>
+        <input class="form-control" type="text" name="house_name" id="house_name"  />
+      </div>
+    </div>
+  </div>
+
+  <p>
+    Dates of Stay
+  </p>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="dates_of_stay_from">From</label>
+            <input class="form-control" type="date" name="dates_of_stay_from" id="dates_of_stay_from"  />
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="dates_of_stay_to">To</label>
+            <input class="form-control" type="date" name="dates_of_stay_to" id="dates_of_stay_to"  />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <label for="how_did_you_hear_about_us">How did you hear about us?</label>
+        <select class="form-control" name="how_did_you_hear_about_us" id="how_did_you_hear_about_us">
+          <option value="online_search">Online Search</option>
+          <option value="travel_website">Travel Website (Air BnB, Flipkey, TripAdvisor, etc.)</option>
+          <option value="referral">Referral</option>
+          <option value="stayed_with_us_before">Stayed with us before</option>
+          <option value="facebook">Facebook</option>
+          <option value="twitter">Twitter</option>
+          <option value="instagram">Instagram</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <textarea class="form-control" id="how_did_you_hear_about_us_other" name="how_did_you_hear_about_us_other" placeholder="Other"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <label for="how_did_you_book_with_us">How did you book with us?</label>
+        <select class="form-control" name="how_did_you_book_with_us" id="how_did_you_book_with_us">
+          <option value="our_website">On Our Website</option>
+          <option value="calling_our_office">Calling Our Rental Office</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <textarea class="form-control" id="how_did_you_book_with_us_other" name="how_did_you_book_with_us_other" placeholder="Other"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <textarea class="form-control" id="how_did_you_book_with_us_other" name="how_did_you_book_with_us_other" placeholder="Other"></textarea>
+        <label for="how_did_you_book_with_us">How did you book with us?</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <select class="form-control" name="how_did_you_book_with_us" id="how_did_you_book_with_us">
+          <option value="our_website">On Our Website</option>
+          <option value="calling_our_office">Calling Our Rental Office</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <textarea class="form-control" id="how_did_you_book_with_us_other" name="how_did_you_book_with_us_other" placeholder="Other"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <label for="satisfaction_rating">How would you rate your satisfaction with the rental process? </label>
+        <input class="form-control" type="number" min="1" max="5" name="satisfaction_rating" id="satisfaction_rating" placeholder="1 - 5" />
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <textarea id="satisfaction_comment" name="satisfaction_comment" placeholder="Comment" class="form-control"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <p>
+   <strong>Did you find our staff courteous and helpful?</strong>
+  </p>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <input class="form-control" type="radio" name="staff_helpful" id="staff_helpful_yes" value="YES"/><label for="staff_helpful_yes">Yes</label>
+        <br>
+        <input class="form-control" type="radio" name="staff_helpful" id="staff_helpful_no" value="NO"/><label for="staff_helpful_no">No</label>
+        <br>
+        <textarea name="staff_helpful_comment" placeholder="Comment" class="form-control"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <p>
+          <strong>If you experienced any housekeeping or maintenance issues upon arrival, have we addressed them to your satisfaction?</strong>
+        </p>
+
+        <input class="form-control" type="radio" name="housekeeping_issues" id="housekeeping_issues_yes" value="YES"/><label for="housekeeping_issues_yes">Yes</label>
+        <input class="form-control" type="radio" name="housekeeping_issues" id="housekeeping_issues_no" value="NO"/><label for="housekeeping_issues_no">No</label>
+
+        <textarea name="housekeeping_issues_comment" placeholder="Comment" class="form-control"></textarea>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <strong>Have you ever stayed in the High Country area before?</strong>
+      </p>
+      <p>
+        <strong>If so, what rental company did you use and how do we compare?</strong>
+      </p>
+
+      <input class="form-control" type="radio" name="stayed_in_highcountry" id="stayed_in_highcountry_yes" value="YES"/><label for="stayed_in_highcountry_yes">Yes</label>
+      <br /><br />
+      <input class="form-control" type="radio" name="stayed_in_highcountry" id="stayed_in_highcountry_no" value="NO"/><label for="stayed_in_highcountry_no">No</label>
+      <br /><br />
+      <textarea name="stayed_in_highcountry_comment" placeholder="Comment" class="form-control"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <p>
+          <strong>Have you ever stayed in the High Country area before?</strong>
+        </p>
+        <p>
+          <strong>If so, what rental company did you use and how do we compare?</strong>
+        </p>
+
+        <label for="stay_with_us_again">If you were returning to the area, how likely would you be to stay with us again?</label>
+        <select class="form-control" name="stay_with_us_again" id="stay_with_us_again">
+          <option value="very_unlikely">Very Unlikely</option>
+          <option value="somewhat_unlikely">Somewhat Unlikely</option>
+          <option value="nuetral">Nuetral</option>
+          <option value="somewhat_likely">Somewhat Likely</option>
+          <option value="very_likely">Very Likely</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <label for="recommend_us">How likely is it that you would recommend us to a friend or colleague?</label>
+        <select class="form-control" name="recommend_us" id="recommend_us">
+          <option value="very_unlikely">Very Unlikely</option>
+          <option value="somewhat_unlikely">Somewhat Unlikely</option>
+          <option value="nuetral">Nuetral</option>
+          <option value="somewhat_likely">Somewhat Likely</option>
+          <option value="very_likely">Very Likely</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <label for="improvement_suggestions">Please share any suggestions for improvement.</label>
+        <textarea class="form-control" name="improvement_suggestions" id="improvement_suggestions"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="cold-sm-12 col-md-5">
+      <div class="form-group">
+        <button type="submit" class="btn btn-default">Submit Survey</button>
+      </div>
+    </div>
+  </div>
+</form>
+
+
+<!-- Confirmation Message -->
+
+<div class="row ty">
+  <div class="col-md-5">
+    <h1>Thank You</h1>
+
+    <p>
+      Thank you for taking the time to provide us with some feedback, we really appreciate it.
+      If you require anything us at this time someone will follow up as soon as we can.
+    </p>
+
+    <p>
+      If there is anything we can do to make your Blue Ridge Mountain vacation an unforgettable
+       experience please let us know.
+    </p>
+
+    Call us at <a href="tel:828-963-2393">828-963-2393</a> and/or email us at
+    <a href="email:rentals@blueridgevacationcabins.com">rentals@blueridgevacationcabins.com</a>.
+    <br><br>
+
+    <p><strong>Thanks Again!</strong></p>
+  </div>
+</div>
